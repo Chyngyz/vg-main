@@ -20,17 +20,19 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 90%;
   @include transform(translate(-50%, -50%));
 
   &__logo {
     width: 100%;
-    height: 200px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
 
     img {
-      height: 100%;
+      position: relative;
+      height: 200px;
       width: auto;
+      @include transform(translateX(50px));
     }
   }
 
@@ -39,5 +41,38 @@ body {
     color: #000;
     text-align: center;
     margin-bottom: 20px;
+    color: #c909b7;
+    text-transform: uppercase;
+  }
+
+  &__countries {
+    @include display(flex);
+    @include flex-wrap(wrap);
+    @include justify-content(center);
+  }
+
+  &__country {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    margin-bottom: 15px;
+
+    &:hover, &:active, &:focus {
+      text-decoration: none;
+      color: #c909b7;
+    }
+
+    img {
+      width: 80px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    span {
+      display: block;
+    }
   }
 }
