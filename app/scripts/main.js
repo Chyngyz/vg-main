@@ -8,6 +8,7 @@
             { src: 'images/slide-4.jpg' }
         ],
         overlay: true,
+        delay: 8000,
         animation: ['kenburns']
     });
   });
