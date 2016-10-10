@@ -1,1 +1,1 @@
-"use strict";!function(s){s(document).ready(function(){s("body").vegas({slides:[{src:"images/slide-1.jpg"},{src:"images/slide-2.jpg"},{src:"images/slide-3.jpg"},{src:"images/slide-4.jpg"}],overlay:!0,animation:["kenburns"]})})}(jQuery);
+"use strict";!function(e){e(document).ready(function(){e("body").vegas({slides:[{src:"images/slide-1.jpg"},{src:"images/slide-2.jpg"},{src:"images/slide-3.jpg"},{src:"images/slide-4.jpg"}],overlay:!0,delay:8e3,animation:["kenburns"]})})}(jQuery);
